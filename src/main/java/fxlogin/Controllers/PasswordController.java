@@ -33,6 +33,8 @@ public class PasswordController {
         }
         else
         {
+            login.clear();;
+            password.clear();
             message.setText("Bad login or password - try again!!!");
         }
 
